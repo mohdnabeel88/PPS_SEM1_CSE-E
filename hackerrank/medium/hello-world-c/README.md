@@ -48,9 +48,10 @@ There is one line of text, $s$.
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T08:00:32.320Z  
+**Submitted:** 2026-09-29T09:48:18.220Z  
 
 ```c
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -58,12 +59,12 @@ There is one line of text, $s$.
 
 int main() 
 {
-	
     char s[100];
-    scanf("%[^\n]%*c", &s);
-  	printf("Hello, World!\n");
-    printf("%s",s);
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    scanf("%[^\n]%*c", s);
+    
+    printf("Hello, World!\n");
+    printf("%s\n", s);
+    
     return 0;
 }
 
