@@ -52,7 +52,7 @@ Print the appropriate English representation,`even`, or `odd`, based on the cond
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-06T09:21:29.383Z  
+**Submitted:** 2026-10-06T09:30:13.825Z  
 
 ```c
 #include <stdio.h>
@@ -60,13 +60,12 @@ Print the appropriate English representation,`even`, or `odd`, based on the cond
 #include <math.h>
 #include <stdlib.h>
 
-int main() 
-{
+int main() {
     int a, b;
     scanf("%d\n%d", &a, &b);
 
     char *words[] = {
-        "zero", "one", "two", "three", "four", 
+        "zero", "one", "two", "three", "four",
         "five", "six", "seven", "eight", "nine"
     };
 
