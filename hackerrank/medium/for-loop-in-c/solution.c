@@ -3,13 +3,12 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() 
-{
+int main() {
     int a, b;
     scanf("%d\n%d", &a, &b);
 
     char *words[] = {
-        "zero", "one", "two", "three", "four", 
+        "zero", "one", "two", "three", "four",
         "five", "six", "seven", "eight", "nine"
     };
 
