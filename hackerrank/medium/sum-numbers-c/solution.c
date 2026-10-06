@@ -4,18 +4,18 @@
 #include <stdlib.h>
 
 int main() {
-    int n, m;
-    float x, y;
-    
-    // Read two integers and two floats
-    scanf("%d %d", &n, &m);
-    scanf("%f %f", &x, &y);
-    
-    // Print sum and difference of the integers
-    printf("%d %d\n", n + m, n - m);
-    
-    // Print sum and difference of the floats (rounded to 1 decimal place)
-    printf("%.1f %.1f\n", x + y, x - y);
-    
+    int int1, int2;
+    float float1, float2;
+
+    // Read integer and float inputs
+    scanf("%d %d", &int1, &int2);
+    scanf("%f %f", &float1, &float2);
+
+    // Print integer sum and difference
+    printf("%d %d\n", int1 + int2, int1 - int2);
+
+    // Print float sum and difference rounded to 1 decimal place
+    printf("%.1f %.1f\n", float1 + float2, float1 - float2);
+
     return 0;
 }
